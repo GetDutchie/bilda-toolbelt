@@ -10,7 +10,7 @@ Bilda (the AI assistant inside VAPE) can load custom capabilities from a GitHub 
 
 **1. Create your fork**
 
-Click **Use this template → Create a new repository** (or go to `https://github.com/new?template_name=bilda-toolbelt&template_owner=GetDutchie&name=my-bilda-toolbelt&description=My%20personal%20Bilda%20toolbelt&visibility=private`). Name it whatever you want — `my-bilda-toolbelt`, `<yourname>-bilda`, anything.
+Click **Use this template → Create a new repository** (or go to `https://github.com/new?template_name=bilda-toolbelt&template_owner=GetDutchie&owner=GetDutchie&name=my-bilda-toolbelt&description=My%20personal%20Bilda%20toolbelt&visibility=private`). Name it whatever you want — `my-bilda-toolbelt`, `<yourname>-bilda`, anything.
 
 **2. Open VAPE Settings → Claude Plugins**
 
@@ -18,7 +18,7 @@ Add two entries:
 
 | Field | Value |
 |-------|-------|
-| Marketplaces | `<your-github-username>/<your-repo-name>` |
+| Marketplaces | `GetDutchie/<your-repo-name>` |
 | Plugins | `toolbelt@bilda-toolbelt` |
 
 **3. Restart your VAPE instance**
