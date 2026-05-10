@@ -2,7 +2,7 @@
 
 Your personal Bilda plugin marketplace. Skills, agents, commands, and hooks that travel with you across every VAPE instance.
 
-> 📖 **[Full guide → vape-pages.dutchie.dev/bilda-toolbelt](https://vape-pages.dutchie.dev/bilda-toolbelt/)** (password: `dutchie`) — screenshots, copy-paste templates for skills/agents/commands/hooks, MCP server wiring, and more.
+> 📖 **[Full guide → vape-pages.dutchie.dev/bilda-toolbelt](https://vape-pages.dutchie.dev/bilda-toolbelt/)** (password: `dutchie`) — copy-paste templates for skills/agents/commands/hooks, MCP server wiring, and more.
 
 ## What this is
 
