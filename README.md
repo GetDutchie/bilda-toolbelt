@@ -28,7 +28,7 @@ Bilda clones your repo on boot. Ask it `what's in my toolbelt?` to confirm the i
 ## Learn more
 
 Full guide with screenshots, copy-paste skill templates, and advanced tips:
-**[bilda-toolbelt.pages.stable.dexus.io](https://bilda-toolbelt.pages.stable.dexus.io)**
+**[vape-pages.dutchie.dev/bilda-toolbelt](https://vape-pages.dutchie.dev/bilda-toolbelt/)** (password: dutchie)
 
 ## Structure
 

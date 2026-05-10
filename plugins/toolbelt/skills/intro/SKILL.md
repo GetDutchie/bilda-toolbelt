@@ -51,7 +51,7 @@ Skill body: instructions, context, commands, whatever Bilda needs.
 
 **MCP servers** — add to your `CLAUDE.md` or wire via hooks. The `claude-marketplace` repo has working examples.
 
-Full reference: [bilda-toolbelt guide](https://bilda-toolbelt.pages.stable.dexus.io) · [GetDutchie/claude-marketplace](https://github.com/GetDutchie/claude-marketplace)
+Full reference: [bilda-toolbelt guide](https://vape-pages.dutchie.dev/bilda-toolbelt/) · [GetDutchie/claude-marketplace](https://github.com/GetDutchie/claude-marketplace)
 
 ## Tips
 

@@ -18,5 +18,5 @@ Personal Bilda plugin marketplace. Skills/agents/commands/hooks that load on eve
 
 ## Reference
 
-- Full guide: https://bilda-toolbelt.pages.stable.dexus.io
+- Full guide: https://vape-pages.dutchie.dev/bilda-toolbelt/
 - Canonical marketplace: https://github.com/GetDutchie/claude-marketplace
