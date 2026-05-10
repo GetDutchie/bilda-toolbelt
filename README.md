@@ -12,7 +12,7 @@ Bilda (the AI assistant inside VAPE) can load custom capabilities from a GitHub 
 
 **1. Create your fork**
 
-Click **Use this template → Create a new repository** (or go to `https://github.com/new?template_name=bilda-toolbelt&template_owner=GetDutchie&owner=GetDutchie&name=my-bilda-toolbelt&description=My%20personal%20Bilda%20toolbelt&visibility=private`). Name it whatever you want — `my-bilda-toolbelt`, `<yourname>-bilda`, anything.
+Click **Use this template → Create a new repository** (or go to `https://github.com/new?template_name=bilda-toolbelt&template_owner=GetDutchie&owner=GetDutchie&name=my-bilda-toolbelt&description=My%20Bilda%20toolbelt&visibility=internal`). Name it whatever you want — `my-bilda-toolbelt`, `<yourname>-bilda`, anything.
 
 **2. Open VAPE Settings → Claude Plugins**
 
@@ -25,17 +25,18 @@ Add two entries:
 
 **3. Restart your VAPE instance**
 
-Bilda clones your repo on boot. Ask it `what's in my toolbelt?` to confirm the intro skill loaded.
+Bilda clones your repo on boot. From a branch with commits, run `/pr-summary` to confirm the skill loaded.
 
 ## Structure
 
 ```
 plugins/toolbelt/
-├── .claude-plugin/plugin.json   ← plugin metadata
-├── skills/intro/SKILL.md        ← starter skill (delete when ready)
-├── agents/README.md             ← drop custom agents here
-├── commands/README.md           ← drop slash commands here
-└── hooks/README.md              ← wire event hooks here
+├── .claude-plugin/plugin.json      ← plugin metadata
+├── skills/pr-summary/SKILL.md     ← draft PR titles + descriptions
+├── skills/hand-off/SKILL.md       ← paste-ready session summaries
+├── agents/README.md               ← drop custom agents here
+├── commands/README.md             ← drop slash commands here
+└── hooks/README.md                ← wire event hooks here
 ```
 
 ## Editing tips
