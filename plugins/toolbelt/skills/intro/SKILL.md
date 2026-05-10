@@ -19,7 +19,7 @@ plugins/toolbelt/
 └── hooks/       ← event hooks (PreToolUse, PostToolUse, Stop, etc.)
 ```
 
-The `marketplace.json` at the root tells Bilda where to find everything. The `plugin.json` inside `plugins/toolbelt/` is the version stamp — bump it every time you push changes.
+The `marketplace.json` at the root tells Bilda where to find everything. The `plugin.json` inside `plugins/toolbelt/` holds plugin metadata.
 
 ## Adding a Skill
 
@@ -50,7 +50,7 @@ Skill body: instructions, context, commands, whatever Bilda needs.
 
 **MCP servers** — add to your `CLAUDE.md` or wire via hooks. The `claude-marketplace` repo has working examples.
 
-Full reference: [bilda-toolbelt guide](https://vape-pages.dutchie.dev/bilda-toolbelt/) · [GetDutchie/claude-marketplace](https://github.com/GetDutchie/claude-marketplace)
+Full reference: [bilda-toolbelt guide](https://vape-pages.dutchie.dev/bilda-toolbelt/) (password: `dutchie`) · [GetDutchie/claude-marketplace](https://github.com/GetDutchie/claude-marketplace)
 
 ## Tips
 
@@ -66,4 +66,4 @@ Delete this skill once you've built your own. It's a scaffold, not a fixture.
 rm -rf plugins/toolbelt/skills/intro
 ```
 
-Bump the version, push, restart. Clean slate.
+Push, restart. Clean slate.

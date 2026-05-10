@@ -2,6 +2,8 @@
 
 Your personal Bilda plugin marketplace. Skills, agents, commands, and hooks that travel with you across every VAPE instance.
 
+> 📖 **[Full guide → vape-pages.dutchie.dev/bilda-toolbelt](https://vape-pages.dutchie.dev/bilda-toolbelt/)** (password: `dutchie`) — screenshots, copy-paste templates for skills/agents/commands/hooks, MCP server wiring, and more.
+
 ## What this is
 
 Bilda (the AI assistant inside VAPE) can load custom capabilities from a GitHub repo you own. This template gives you a working starting point — one skill installed out of the box, scaffolding for the rest, and instructions throughout.
@@ -25,16 +27,11 @@ Add two entries:
 
 Bilda clones your repo on boot. Ask it `what's in my toolbelt?` to confirm the intro skill loaded.
 
-## Learn more
-
-Full guide with screenshots, copy-paste skill templates, and advanced tips:
-**[vape-pages.dutchie.dev/bilda-toolbelt](https://vape-pages.dutchie.dev/bilda-toolbelt/)** (password: dutchie)
-
 ## Structure
 
 ```
 plugins/toolbelt/
-├── .claude-plugin/plugin.json   ← bump version after every change
+├── .claude-plugin/plugin.json   ← plugin metadata
 ├── skills/intro/SKILL.md        ← starter skill (delete when ready)
 ├── agents/README.md             ← drop custom agents here
 ├── commands/README.md           ← drop slash commands here
