@@ -4,12 +4,11 @@ Personal Bilda plugin marketplace. Skills/agents/commands/hooks that load on eve
 
 ## Rules
 
-- Bump `plugins/toolbelt/.claude-plugin/plugin.json` `version` on every change. No bump = no reload.
 - New skills: `plugins/toolbelt/skills/<name>/SKILL.md` with `name` + `description` frontmatter.
 - New agents: `plugins/toolbelt/agents/<name>.md`.
 - New commands: `plugins/toolbelt/commands/<name>.md`.
 - Hooks wired in `plugins/toolbelt/hooks/hooks.json`.
-- After pushing, tell user to restart their VAPE instance.
+- After pushing, tell user to restart their VAPE instance. VAPE does `git pull` on the marketplace repo every boot — no version bumps needed.
 
 ## Install strings (for VAPE Settings)
 

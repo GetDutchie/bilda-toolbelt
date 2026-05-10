@@ -66,4 +66,4 @@ echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) $CLAUDE_TOOL_INPUT" >> ~/bash-audit.log
 - Canonical examples: [GetDutchie/claude-marketplace/plugins/zsh-rocket/hooks/](https://github.com/GetDutchie/claude-marketplace/tree/main/plugins/zsh-rocket/hooks)
 - Agent Skills spec: https://agentskills.io/specification
 
-After adding, bump `../.claude-plugin/plugin.json` version and restart your VAPE instance.
+After adding, push to your repo and restart your VAPE instance. VAPE pulls the latest on every boot.

@@ -37,9 +37,8 @@ description: One sentence that tells Bilda when to use this. Be specific about t
 Skill body: instructions, context, commands, whatever Bilda needs.
 ```
 
-3. Bump `version` in `plugins/toolbelt/.claude-plugin/plugin.json`
-4. Push to your repo
-5. Restart your VAPE instance — Bilda re-installs on boot
+3. Push to your repo
+4. Restart your VAPE instance — Bilda pulls the latest on every boot
 
 ## Going Further
 
@@ -55,8 +54,7 @@ Full reference: [bilda-toolbelt guide](https://vape-pages.dutchie.dev/bilda-tool
 
 ## Tips
 
-- Version bump is required — Bilda caches plugins by version. No bump = no reload.
-- Restart to reload — changes take effect on the next instance boot.
+- Push → restart — VAPE does `git pull` on your marketplace repo every boot. No version bumps needed.
 - Private repos work — as long as your `GITHUB_TOKEN` has `repo` scope.
 - Multiple marketplaces — add more `owner/repo` entries in VAPE Settings.
 

@@ -43,7 +43,6 @@ plugins/toolbelt/
 
 ## Editing tips
 
-- Bump `plugins/toolbelt/.claude-plugin/plugin.json` `version` after every change — Bilda caches by version.
-- Restart your VAPE instance to pick up changes.
+- Push → restart — VAPE does `git pull` on your marketplace repo every boot, so changes land automatically on the next instance start.
 - Private repos work as long as your `GITHUB_TOKEN` has `repo` scope.
 - You can add multiple marketplaces in VAPE Settings.
