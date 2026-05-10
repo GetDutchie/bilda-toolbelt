@@ -8,12 +8,18 @@ Personal Bilda plugin marketplace. Skills/agents/commands/hooks that load on eve
 - New agents: `plugins/toolbelt/agents/<name>.md`.
 - New commands: `plugins/toolbelt/commands/<name>.md`.
 - Hooks wired in `plugins/toolbelt/hooks/hooks.json`.
-- After pushing, tell user to restart their VAPE instance. VAPE does `git pull` on the marketplace repo every boot — no version bumps needed.
+- After pushing, tell user to restart their VAPE instance. VAPE `git pull`s the marketplace on every boot (vape `cmd/vape-machine/bootstrap.go:605-607`) — no version bumps needed.
+- **Don't change the marketplace `name` field** in `.claude-plugin/marketplace.json`. The install string `toolbelt@bilda-toolbelt` resolves against that field, not the repo name. Stable name = forks keep working.
 
 ## Install strings (for VAPE Settings)
 
-- Marketplace: `<your-github-username>/<this-repo-name>`
+- Marketplace: `GetDutchie/<this-repo-name>` (template prefills owner=GetDutchie)
 - Plugin: `toolbelt@bilda-toolbelt`
+
+## Branches
+
+- `main` — template content. Forked by users.
+- `assets` — orphan branch hosting PR screenshots (raw.githubusercontent.com URL). Don't merge.
 
 ## Reference
 
