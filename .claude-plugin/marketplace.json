@@ -1,0 +1,21 @@
+{
+  "name": "bilda-toolbelt",
+  "owner": {
+    "name": "<your-name-here>",
+    "email": "<you@dutchie.com>"
+  },
+  "metadata": {
+    "description": "My personal Bilda toolbelt",
+    "version": "0.1.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "toolbelt",
+      "source": "./plugins/toolbelt",
+      "description": "My personal skills, agents, commands, and hooks for Bilda",
+      "version": "0.1.0",
+      "repository": "https://github.com/<owner>/<repo>"
+    }
+  ]
+}
